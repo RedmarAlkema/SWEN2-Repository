@@ -9,7 +9,6 @@ import javafx.scene.text.Font;
 import javafx.scene.text.FontWeight;
 import javafx.scene.text.Text;
 
-
 public class MyLettersPane extends MyAbstractPane {
 
 	// constants
@@ -41,8 +40,7 @@ public class MyLettersPane extends MyAbstractPane {
 			letter.setStrokeWidth(2);
 			if (linecolor == Color.BLACK) {
 				letter.setFill(Color.WHITE);
-			}
-			else {
+			} else {
 				letter.setFill(Color.BLACK);
 			}
 			letter.setStroke(linecolor);
